@@ -42,7 +42,7 @@ header{
 }
 
 .informes{
-  flex-basis: 40%;
+  flex-basis: 50%;
   font-family: 'Roboto', sans-serif;
   color: #353535;
   font-size:30px;
