@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">  
@@ -48,17 +48,17 @@
               </ul>
             </div>
             <div class="div-form-sup">
-              <div class="div-form"><p>Digite seus dados e depois clique em enviar!</p></div>
-              <div class="form">
-                <form class = "formulario" action="/">
+              <div class="div-form" id = "div-form"><p>Digite seus dados e depois clique em enviar!</p></div>
+              <div class="form" id="div-form-js">
+                <form class = "formulario" id="form-js">
                  
                   <div class="div-form">
                     <label class = "label-form" for="name">Nome: </label>
                     <input class = "input-form" type="text" id="name">
                   </div>
                   <div class="div-form">
-                    <label class = "label-form" for="email1">Email: </label>
-                    <input class = "input-form" type="email" id="email1">
+                    <label class = "label-form" for="email">Email: </label>
+                    <input class = "input-form" type="email" id="email">
                   </div>
                   <div class="div-form"><input id="botao-enviar" type="submit" value="Enviar dados"></input></div>
                 </form>
@@ -86,4 +86,5 @@
     </footer>
 
 </body>
+<script type = "text/javascript" src="js/script.js"></script>
 </html>

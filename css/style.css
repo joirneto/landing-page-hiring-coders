@@ -4,16 +4,16 @@
 
 body{
   background-image: linear-gradient(to top, white, rgb(162, 0, 232,0.7  ));
+
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 header{
   font-size:60px;
-  color: #ffffff;
+  color: #fdf91c;
   text-align: center;
   font-weight:900;
 }
@@ -31,16 +31,15 @@ header{
 }
 
 #span-conceito{
-  color: #ffffff;
+  color: #fdf91c;
   font-size:medium;
   text-align: center;
- 
 }
+
 .informes-form{
   display: flex;
   justify-content: center;
   margin-left: 5%;
-  
 }
 
 .informes{
@@ -60,8 +59,7 @@ header{
 
 .form{
   margin: 20px;
- 
-  background-color: #ffffff;
+  background-color: #fdf91c;
   border-radius: 5px;
   font-size: 20px;
   color: #353535;
@@ -74,28 +72,29 @@ header{
   padding: 8px;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
  -webkit-align-items:center;
   align-items: center;
  -webkit-justify-content: center;
   justify-content: center;
 }
+
 .input-form{
   padding: 8px;
   margin: 8px;
   width: 270px;
   border-radius: 3px;
-
+  background-color: rgba(218, 131, 255, 0.7);
 }
 
 .label-form{
-  background-color: rgba(218, 131, 255, 0.7);;
+  background-color: rgba(218, 131, 255, 0.7);
   padding: 6px;
   border-radius: 5px;
 }
 
 #botao-enviar{
   background-color: rgba(218, 131, 255, 0.7);
-  
   color: #353535;
   padding: 16px;
   border-radius: 5px;
@@ -106,44 +105,36 @@ header{
   list-style-image: url('/public/images/icone21.png');
   align-items: center;
   text-align: center;
-  
 }
 
 .img2{
   list-style-image: url('/public/images/icone12.png');
   align-items: center;
   text-align: center;
-  
 }
 
 .img3{
   list-style-image: url('/public/images/icone31.png');
   align-items: center;
   text-align: center;
-  
 }
-
 
 footer{
   font-family: 'Roboto', sans-serif;
-  margin-top: 2%;
   display: flex;
   flex-direction:column;
   color: #353535;
   justify-content: center;
-  align-items: center;
-  
-  
+  align-items: center;  
 }
 
 .img-footer{
-    display: -webkit-flex;
+  display: -webkit-flex;
   display: flex;
  -webkit-align-items:center;
   align-items: center;
  -webkit-justify-content: center;
-  justify-content: center
-  
+  justify-content: center;  
 }
 
 
