@@ -101,6 +101,14 @@ header{
   font-size: 20px;
 }
 
+#botao-enviar:hover{
+  background-color: #353535;
+  color: #da83ffb3;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
 .img1{
   list-style-image: url('/public/images/icone21.png');
   align-items: center;
