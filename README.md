@@ -1,4 +1,4 @@
-# [Landing Page](https://landing-page-joir-neto-hiring-coders.netlify.app/) - Desafio Hiring Coders
+# [Landing Page](https://superpromocao-hiring-coders.netlify.app/) - Desafio Hiring Coders
 Landing Page com HMTL, CSS e JS
 
 ## Início
