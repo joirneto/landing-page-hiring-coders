@@ -30,7 +30,12 @@ function atualizaPage(){
 
   setTimeout(() => {
     divForm.innerHTML = pronto
-  },1000);
+  },2000);
+  
+  setTimeout(() => {
+    window.location.href = window.location.href;
+  },4000);
+  
 }
 
 function addItem(name,email) {
@@ -52,4 +57,5 @@ function addItem(name,email) {
     }
     atualizaPage();
 }
-  
+
+
